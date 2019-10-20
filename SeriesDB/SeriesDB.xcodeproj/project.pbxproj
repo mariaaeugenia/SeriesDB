@@ -14,6 +14,9 @@
 		54586B6C235CFBA4004145A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54586B6B235CFBA4004145A5 /* Preview Assets.xcassets */; };
 		54586B6F235CFBA4004145A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54586B6D235CFBA4004145A5 /* LaunchScreen.storyboard */; };
 		54586B7A235CFBA4004145A5 /* SeriesDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54586B79235CFBA4004145A5 /* SeriesDBTests.swift */; };
+		54586B85235CFE58004145A5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54586B84235CFE58004145A5 /* LoginViewModel.swift */; };
+		54586B88235D0518004145A5 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54586B87235D0518004145A5 /* LoginTextField.swift */; };
+		54586B8A235D06E9004145A5 /* LoginButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54586B89235D06E9004145A5 /* LoginButtonContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		54586B75235CFBA4004145A5 /* SeriesDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeriesDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54586B79235CFBA4004145A5 /* SeriesDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDBTests.swift; sourceTree = "<group>"; };
 		54586B7B235CFBA4004145A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54586B84235CFE58004145A5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		54586B87235D0518004145A5 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		54586B89235D06E9004145A5 /* LoginButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		54586B61235CFBA3004145A5 /* SeriesDB */ = {
 			isa = PBXGroup;
 			children = (
+				54586B86235D04FE004145A5 /* Login */,
 				54586B62235CFBA3004145A5 /* AppDelegate.swift */,
 				54586B64235CFBA3004145A5 /* SceneDelegate.swift */,
 				54586B66235CFBA3004145A5 /* ContentView.swift */,
@@ -105,6 +112,16 @@
 				54586B7B235CFBA4004145A5 /* Info.plist */,
 			);
 			path = SeriesDBTests;
+			sourceTree = "<group>";
+		};
+		54586B86235D04FE004145A5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				54586B84235CFE58004145A5 /* LoginViewModel.swift */,
+				54586B87235D0518004145A5 /* LoginTextField.swift */,
+				54586B89235D06E9004145A5 /* LoginButtonContent.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54586B85235CFE58004145A5 /* LoginViewModel.swift in Sources */,
 				54586B63235CFBA3004145A5 /* AppDelegate.swift in Sources */,
 				54586B65235CFBA3004145A5 /* SceneDelegate.swift in Sources */,
+				54586B8A235D06E9004145A5 /* LoginButtonContent.swift in Sources */,
 				54586B67235CFBA3004145A5 /* ContentView.swift in Sources */,
+				54586B88235D0518004145A5 /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
